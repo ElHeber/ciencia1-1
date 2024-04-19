@@ -1,34 +1,63 @@
+.Titulo {
+
+    color: blue;
+    text-align: justify;
+
+}
+
 *{
 
-padding: 0px;
-margin: 0px;
 
+    padding: 0px;
+    margin: 0px;
+    
 }
 
-.formulario{
+.Formulario{
 
 
-background-color: crimson ;
-
-}
-.formRegis h3 {
- fort-size: 28px;
- color: skyblue(243, 132, 6);
 
 
-}
-
-.entrada{
+    background-color: antiquewhite;
     width: 400px;
-    padding: 8px;
-    border-radius: 10px;
-   border: 1px solid blue;
-   background-color: aliceblue(241, 241, 234j);
+    padding: 40px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 50px;
 }
 
-.enviar{
-
- margin-left: auto;
+.Formulario h1{
 
 
+    font-size: 35px;
+    margin: auto;
+    color: rgb(139, 113, 72);
+
+}
+
+.Entrada{     
+
+    width: 400px;
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid rgb(70, 64, 53);
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.Borde{
+
+    border-radius: 15px;
+    border: 1px;
+}
+
+.Enviar{
+
+    padding: 6px;
+    margin-left: 145px;
+    border-radius: 5px;
+    background-color: rgb(139, 113, 72);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100px;
 }

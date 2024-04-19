@@ -1,36 +1,59 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Contacto</title>
-<Link> rel=styles</Link>
-<head>
-<bod>
-    <nav><center>
-<a href="index.html">Inicio</a>
-<a href="Nosotros.html">Nosotros</a>
-<a href="servico">Servicio</a>
-</nav></center>
-<center>
-<h1><b>Contacto</b></h1>
-
-</p>
-<label for="nom">Nombre:</label>
-<input type="text" id="nombre">
-<p>
-<label for="correo">Correo:</label>
-<input for="email" id="correo">
-</p>
-<p>
-<label for="Numero"> Numero</label>
-<input for="number" id="Numero" class="number" >
-</p>
-<br><br>
-<center>
-<input type="button" value="Enviar">
-</center>
-
-
-
-
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTOS</title>
 </head>
+<link rel="stylesheet" href="./CSS/Style.css">
+<body>
+    <p>
+        <nav><center>
+            <a href="Inicio.html">Inicio</a>
+            <a href="Servicios.html">Servicios</a>
+            <a href="Nosotros.html">Nosotros</a>
+            <a href="Contacto.html">Contacto</a>
+            <a href="Registro.html">Registro</a>
+        </center>
+        </nav>
+    </p>
+    </p>
+    <div class="Principal">
+        <form action="Resultado.html" method="get" class="Formulario">
+            <fieldset class="Borde">
+
+                <h1><b>Como contactarnos</b></h1>
+                
+                <p>
+                    <label>Nombre:
+                        <input name="Nombre" id="firstName" class="Entrada" placeholder="Nombre"/>
+                    </label>
+                </p>
+
+                <p>
+                    <label>Email:
+                        <input type="email" name="email" id="email" class="Entrada" placeholder="E-mail"/>
+                    </label>
+                </p>
+
+                <p>
+                    <label>Numero:
+                        <input type="number" name="Numero" id="Numero" class="Entrada" placeholder="Numero">
+                    </label>
+                </p>
+
+                <p>
+                    <label>Mensaje: </label>
+                    <textarea placeholder="Mensaje" id="Mensaje" name="Mensaje" cols="4" rows="4" class="Entrada">
+                    </textarea>
+                </p>
+
+                <p>
+                    <button type="submit" class="Enviar">Submit</button>
+                </p>
+
+            </fieldset>
+    </div>
+    </form>
+</body>
+</html>
